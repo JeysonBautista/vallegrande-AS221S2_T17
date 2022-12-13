@@ -29,7 +29,7 @@ app.use(express.static(__dirname + '/'));
  
 //Verficar si esta informacion es correcta de acuerdo a tu localhost
 var conexion = mysql.createConnection({
-  host: "3.86.162.20",
+  host: "3.83.117.145",
   user: "admin",
   password: "admin",
   database: "db_landing_page"
