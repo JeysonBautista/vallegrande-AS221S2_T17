@@ -6,7 +6,7 @@
 
   app.get('/', (req, res) => {
 	//res.send('Hello World with express!')
-	res.sendFile("*/*/index.html")
+	res.sendFile("/home/ubuntu/vallegrande-AS221S2_T17/index.html")
 });
 
   app.listen(3000);
